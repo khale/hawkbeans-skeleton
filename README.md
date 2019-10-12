@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/khale/hawkbeans.svg?token=576AGsdiqBgiBzCbaoJT&branch=master)](https://travis-ci.com/khale/hawkbeans)
+[![Build Status](https://travis-ci.com/khale/hawkbeans-skeleton.svg?branch=master)](https://travis-ci.com/khale/hawkbeans-skeleton)
 # Hawkbeans
 Hawkbeans is a small (~6K LOC), MIT-licensed JVM written in C and intended for
 educational purposes. It does **not** meet the Java specification (not even
