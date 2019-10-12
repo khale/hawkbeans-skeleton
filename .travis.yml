@@ -1,0 +1,26 @@
+language: c
+
+dist: xenial
+
+addons:
+    apt:
+        update: true
+        packages:
+            - gcc
+            - clang
+            - make 
+            - python
+            - libreadline6
+            - libreadline6-dev
+            - python3
+            - python-pip
+            - python3-pip
+            - python3-setuptools
+            - openjdk-8-jre-headless
+            - openjdk-8-jdk-headless
+            - ant
+            
+
+before_install: pip3 install --user --upgrade pip && pip3 install --user bs4 requests
+
+script: make && make jlibs && make testcode
