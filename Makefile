@@ -4,7 +4,7 @@ GCC_EXEC:=gcc
 lc = $(shell echo $(1) | tr A-Z a-z)
 
 PROJECT_NAME=p2
-PROJECT_SERVER="http://subutai.cs.iit.edu"
+PROJECT_SERVER="http://18.223.126.137"
 PROJECT_PORT=3000
 
 CLANG_IGNORED_WARNINGS = reserved-id-macro \
